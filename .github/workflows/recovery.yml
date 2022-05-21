@@ -9,7 +9,7 @@ on:
         default: 'https://www.filesend.jp/l/en-US/'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://xiaomemeindex.com/recovery.img
 
 jobs:
   build:
