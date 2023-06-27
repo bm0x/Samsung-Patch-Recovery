@@ -8,8 +8,11 @@ on:
         required: true
         default: 'https://github.com/YOUR_USERNAME/REPOSITORY/releases/...'
 
+permissions:
+  contents: write
+
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  TZ: America/Santiago
 
 jobs:
   build:
