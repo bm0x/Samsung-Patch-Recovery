@@ -53,8 +53,8 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: |
-          /home/runner/work/Patch-Recovery/Patch-Recovery/output/*.img
-          /home/runner/work/Patch-Recovery/Patch-Recovery/output/*.tar
+          /home/runner/work/Samsung-Patch-Recovery/Samsung-Patch-Recovery/output/*.img
+          /home/runner/work/Samsung-Patch-Recovery/Samsung-Patch-Recovery/output/*.tar
         name: Recovery Modified
         tag_name: ${{ github.run_id }}
         body: Recovery Modified
